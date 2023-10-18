@@ -61,3 +61,14 @@ if x % 2 == 0:
      print("2의 배수입니다.")
 elif x % 3 == 0:
      print("3의 배수입니다.")
+
+정리 : if-elif-else문
+if 조건 1:            조건 1 True --> A실행        
+     do A
+elif 조건 2:          조건 1 False and 조건2 True --> B실행
+     do b
+elif 조건 3:          조건 1 False and 조건2 False and 조건3 True --> C실행
+     do c
+     .....            .....
+else:                 모든 조건이 False --> X를 실행한다.
+     do x
