@@ -73,13 +73,13 @@ if 조건:                            count = count + 1
 <수행할 명령>                       
 .....                             False일때 If문 실행 안됌
 
-if문
+[if문]
 if문에 들어갈 명령들은 같은 들여쓰기로 구분!
 if string[0] == "a" : 
 (들여쓰기)count = count + 1
 (들여쓰기)print(string)
 
-if - else문
+[if - else문]
 조건이 True면 if문 False면 else문 실행
 x = input()
 if x in ['a','e','i', 'o', 'u']:
@@ -110,3 +110,17 @@ if num % 2 == 0:
     print(num, "짝수입니다.")
 else:
     print(num, "홀수입니다.")
+
+**if문에서 조건을 만족하지 못했을 때**
+
+만약 점수가 90이상이라면 A를 출력해라,
+"아닌 경우"에 75이상이라면 B를 출력해라. --> else if --> elif
+
+[if-elif문]
+조건 1이 True면 if문, 조건 1이 False이면서 조건 2가 True면 elif문 실행
+
+x = input()
+if x % 2 == 0:
+     print("2의 배수입니다.")
+elif x % 3 == 0:
+     print("3의 배수입니다.")
