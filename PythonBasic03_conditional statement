@@ -71,4 +71,4 @@ elif 조건 3:          조건 1 False and 조건2 False and 조건3 True --> C�
      do c
      .....            .....
 else:                 모든 조건이 False --> X를 실행한다.
-     do x
+     do x             A는 아니지만 B라면? elif!
