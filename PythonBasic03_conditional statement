@@ -51,3 +51,30 @@ print(not a) # False
 3. NOT - not
 논리를 뒤집는 연산자
      
+# 괄호 안에 적절한 명제를 채워 stat1이 True가 되게 해봅시다.
+stat1 = 3==3 and 2<4 and (1<=1)
+
+# 괄호 안에 적절한 명제를 채워 stat2이 False가 되게 해봅시다.
+stat2 = 4>=6 or "apple"=="Apple" or (1!=1) 
+
+# 괄호 안에 적절한 명제를 채워 stat3이 True가 되게 해봅시다.
+stat3 = not (False)
+print(stat1, stat2 ,stat3)
+
+조건문
+= 어떠한 특정 조건에 따라서 실행되는 명령이 달라지는 구문!
+
+파이썬의 조건문 - if 문
+= 만약 i == 1 이면, i를 출력하라!
+     if 조건          명령
+if문 조건이 True 일때            if string[0] == "a" : 
+if 조건:                            count = count + 1
+<수행할 명령>                       print(string)
+<수행할 명령>                       
+.....                             False일때 If문 실행 안됌
+
+if문
+if문에 들어갈 명령들은 같은 들여쓰기로 구분!
+if string[0] == "a" : 
+(들여쓰기)count = count + 1
+(들여쓰기)print(string)
