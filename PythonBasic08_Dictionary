@@ -1,0 +1,31 @@
+[Dictionary]
+사전, 짝꿍이 있는 자료형
+
+{} - 중괄호로 묶어서 표현한다.
+dict_zero = {}
+person = {'name' : 'Chris', 'age' : 28} 한 쌍의 자료형을 추가.
+짝꿍이 있는 자료형 {key : value}의 형식 : key를 알면 value를 알 수 있다.
+
+key --> name, age  
+value --> Chris, 28
+dict_zero = {}
+person = {'name' : 'Chris', 'age' : 28}
+print(person['name']) #BABO
+print(person['age'])  #28
+
+자료 추가하기
+person = {'name' : 'Chris', 'age' : 28}
+person['hometown'] = Seoul
+
+del 함수로 삭제도 가능함!
+person = {'name' : 'Chris', 'age' : 28}
+del person['age']
+print(person) #{'name' : 'Chris'}
+
+중요!! key는 변할 수 없는 자료형이여야한다. 리스트는 안됌. 튜플은 가능하다.
+datas = {[1,2,3]:'Alphabet'} #Error 리스트는 불가능 --> 변할 수 있기에
+datas = {(1,2,3):'Number'} #OkiDoki 튜플은 가능
+
+
+
+
