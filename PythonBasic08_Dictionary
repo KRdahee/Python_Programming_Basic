@@ -26,6 +26,18 @@ print(person) #{'name' : 'Chris'}
 datas = {[1,2,3]:'Alphabet'} #Error 리스트는 불가능 --> 변할 수 있기에
 datas = {(1,2,3):'Number'} #OkiDoki 튜플은 가능
 
-
-
-
+ex) 넌 나랑 한패! Dictionary
+    자료형 중에는 관계를 만들 수 있는 자료형이 있습니다. 이를 Dictionary(딕셔너리 : 사전형) 자료라고 합니다.
+   
+    “사과” → “apple”
+    “바나나” → “banana”
+    “당근” → “carrot”
+    my_dict에서 “사과”를 Key로 넣어 나온 Value를 변수 var1에 넣어봅시다.
+    
+    당근은 싫어요! my_dict에서 당근-carrot을 제거해봅시다.
+    체리는 좋아요! my_dict에서 체리-cherry를 추가해봅시다.
+    
+    Tips!
+    Dictionary의 Key나 Value를 문자열로 설정할 땐 “”, ”(따옴표)를 잊지 마세요!
+    Dictionary를 어디에 활용할 수 있을까요? 한번 생각해봅시다!
+    Dictionary의 원소를 제거할 때는del Keyword를 사용합니다.
