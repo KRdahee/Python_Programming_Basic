@@ -33,3 +33,14 @@ def 함수이름(매개변수):
   <수행할 명령>
   . . .
   return  반환값
+
+
+ex) 합/길이 쉽게 구하기
+    원소들의 합 : sum()
+    시퀀스의 길이 : len()
+    단, sum()을 사용할 때는 시퀀스 안의 원소가 모두 숫자형 자료여야합니다!
+
+    my_tuple = (3, 1, 2, 4)
+
+    print(sum(my_tuple))
+    print(len(my_tuple))
