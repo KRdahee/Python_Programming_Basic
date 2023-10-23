@@ -44,3 +44,52 @@ ex) 합/길이 쉽게 구하기
 
     print(sum(my_tuple))
     print(len(my_tuple))
+
+    1. 원하는 숫자 5개가 담긴 리스트 my_list을 하나 선언해봅시다.
+    
+    2. 변수 var1를 선언하고, my_list의 합을 넣어봅시다.
+    
+    3. 변수 var2를 선언하고, my_list의 길이를 넣어봅시다.
+    
+    4. 변수 var3을 선언하고, my_list의 평균을 넣어봅시다.
+
+    my_list = (3, 5, 6, 7, 8)
+    
+    var1 = sum(my_list)
+    
+    var2 = len(my_list)
+    
+    var3 =  var1/var2
+    
+    print(var1, var2, var3)
+
+ex) 명령이 끝난 후엔 반환! return
+  def plus(a, b):
+      return a+b #a+b를 반환!
+          
+  var1 = plus(3, 4) #반환값 7을 var1에 대입
+ 
+  1. 함수 plus_print()을 만들어봅시다.
+  
+    매개변수 : a, b
+    함수 안에서 a와 b를 더한 값을 출력
+    반환값 없음.
+ 
+  2. 함수 times_return()을 만들어봅시다.
+  
+    매개변수 : a, b
+    반환값 a와 b를 곱한 결과.
+    
+  3. 함수를 작성한 후, 다음과 같이 출력되도록 코드를 작성해봅시다.
+  
+    plus_print()으로 숫자 3과 4의 합을 출력해봅시다.
+    print()와 times_return()으로 숫자 3과 4의 곱을 출력해봅시다.
+
+def plus_print(a, b):
+    print(a+b)
+
+def times_return(a,b):
+    return a*b
+
+plus_print(3,4)
+print(times_return(3,4))
